@@ -1,0 +1,45 @@
+.cabecalho {
+	background-color: #FFA07A;
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 5px;
+}
+
+.quadrado-inicio {
+	background-color: #ddd;
+	margin: 5px;
+}
+
+.quadrado-inicio:hover {
+	opacity: 0.5;
+}
+
+.imagem-quadrado {
+	display: block;
+    margin: 0 auto;
+}
+
+.texto-quadrado {
+	text-align: center;
+	background-color: #808080;
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 18px;
+    margin: 0 auto;
+}
+
+.texto-rodape {
+	text-align: right;
+	margin: 5px;
+}
+
+@media(max-width: 500px) {
+	.texto-rodape {
+		text-align: center;
+	}
+}
