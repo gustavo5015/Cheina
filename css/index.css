@@ -33,9 +33,12 @@
     margin: 0 auto;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 .texto-rodape {
 	text-align: right;
-	margin: 5px;
 }
 
 @media(max-width: 500px) {

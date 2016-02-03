@@ -1,0 +1,44 @@
+.cabecalho {
+	background-color: #FFA07A;
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 5px;
+}
+
+.exibirCadastro {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+.conteudo {
+	margin-top: 5px;
+}
+
+#formCadastroCliente {
+	background-color: #ddd;
+	border-radius: 5px;
+	display: none;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.texto-rodape {
+	text-align: right;
+}
+
+
+@media(max-width: 600px) {
+	.texto-rodape {
+		text-align: center;
+	}
+	legend {
+		text-align: center;
+	}
+}
